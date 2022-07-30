@@ -45,24 +45,10 @@ body {
   background-image: url("../images/heroImage.png");
   background-size: contain;
 }
-#work {
-  margin: 0px 5%;
-  grid-area: featuredProduct;
-  background-image: url("../images/furniture1.png");
-}
-#secondaryProduct {
-  grid-area: secondaryProduct;
-  background-image: url("../images/furniture2.png");
-}
-#CTA {
-  grid-area: CTA;
-  background-image: url("../images/woodbg.png");
-  justify-content: 0px 5%;
-  cursor: pointer;
-}
+
 #headline {
   border-bottom: 5px solid #5D768C;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(142, 68, 68, 0.8);
   position: absolute;
   right: -50px;
   top: 100px;
@@ -80,7 +66,12 @@ body {
 }
 
 
-/* Category Grid CSS */
+/* Category Grid CSS Case Study*/
+
+#caseStudies {
+  background-image: url("../images/blueBackground.png");
+  background-size: cover;
+}
 
 .subHeading {
   text-align: center;
@@ -138,12 +129,11 @@ body {
 }
 
 .heading {
-  background-color: rgba(0,0,0,0.7);
   padding: 15px;
   height: 25px;
-  color: white;
+  color: #5D768C;
   font-size: 24px;
-  border-bottom: 5px solid #5D768C;
+  border-bottom: 3px solid #5D768C;
 }
 
 @media screen and (max-width: 600px) {
@@ -213,7 +203,7 @@ h2 {
 
 #headline p {
   max-width: 350px;
-  font-size: 16px;
+  font-size: 45px;
   font-weight: 300;
   margin: 0px 0px;
   color: #636364;
